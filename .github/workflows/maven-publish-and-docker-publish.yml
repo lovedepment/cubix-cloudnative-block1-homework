@@ -51,7 +51,7 @@ jobs:
     - name: Builds the Docker image
       run: docker build . -t ghcr.io/lovedepment/cubix/1/homework/app:springboot
     - name: Publishing the Docker iamge
-      run: docker push ghcr.io/lovedepment/cubix/cloudnative/demo:actions
+      run: docker push ghcr.io/USERNAME/cubix/1/homework/app:springboot
 
   verify-image:
     runs-on: ubuntu-latest
