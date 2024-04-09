@@ -65,4 +65,4 @@ jobs:
     - name: Docker login
       run: docker login ghcr.io -u imre-gabor -p ${{ github.token }}
     - name: Verify Docker image
-      run: ./verify-iamge.sh
+      run: ./verify-image.sh
