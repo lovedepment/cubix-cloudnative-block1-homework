@@ -63,6 +63,6 @@ jobs:
     - name: Check out the repository to the runner
       uses: actions/checkout@v3  
     - name: Docker login
-      run: docker login ghcr.io -u imre-gabor -p ${{ github.token }}
+      run: docker login ghcr.io -u lovedepment -p ${{ github.token }}
     - name: Verify Docker image
       run: ./verify-image.sh
